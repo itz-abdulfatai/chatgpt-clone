@@ -57,7 +57,7 @@ const HomePage = () => {
           <input
             type="text"
             placeholder="message chatGPT"
-            className="flex-1 bg-transparent"
+            className="flex-1 bg-transparent outline-none text-[#cecece]"
           />
           <img className="icon bg-black" src={assets.arrow} alt="" />
         </form>
