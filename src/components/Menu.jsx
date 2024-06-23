@@ -5,7 +5,7 @@ const Menu = () => {
     return ( 
         <div className=" flex flex-col items-stretch mt-4 overflow-y-auto" >
             <div className=" flex flex-col items-stretch px-1 h-[155px] justify-between">
-                <SidebarBtn icon={assets.chatgpt} hasDot={false} hasEdit={true} text="ChatGPT"/>
+                <SidebarBtn icon={assets.chatgpt} hasDot={false} hasEdit={true} text="AbdulGPT"/>
                 <SidebarBtn icon={assets.veed} hasDot={true} hasEdit={true} text="Video GPT by VEED"/>
                 <SidebarBtn icon={assets.dalleE} hasDot={true} hasEdit={true} text="DALL-E"/>
                 <SidebarBtn icon={assets.grid} hasDot={false} hasEdit={false} text="Explore GPTs"/>

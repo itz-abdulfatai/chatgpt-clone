@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer {
-    .icon {
-        @apply w-8 h-8 p-1 rounded-full
-    }
+  .icon {
+    @apply w-8 h-8 p-1 rounded-full;
+  }
+
+  .widget {
+    @apply hidden sm:w-[40%]  md:w-[20%] lg:w-[150px] text-[#cecece] text-sm text-opacity-80 h-24  rounded-xl p-5 sm:flex flex-col items-start justify-around hover:bg-[#2f2f2fe6] cursor-pointer;
+  }
 }

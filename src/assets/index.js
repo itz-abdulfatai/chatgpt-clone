@@ -23,6 +23,7 @@ import team from "./team.svg";
 import arrow from "./arrow.svg";
 import veed from "./GPT Store (2).png";
 import dalleE from "./agent_3.webp";
+import menuIcon from "./menu.svg"
 
 export const assets = {
   attach,
@@ -50,6 +51,7 @@ export const assets = {
   arrow,
   veed,
   dalleE,
+  menuIcon
 };
 
 
